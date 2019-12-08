@@ -5,7 +5,7 @@
 ### Team Members
 
 - Emmanuel Onuoha, emmanuelonuoha25@gmail.com
-- Aina Oluwatimilehin
+- Aina Oluwatimilehin, wizkevinaaina@gmail.com,
 - Okemati Lanre, Lanrayokemati@yahoo.com
 - Olusegun Solomon
 
