@@ -13,7 +13,7 @@
 
 Students find it hard to gain access to good student tutors that are really good in specific courses.
 Student tutors find it hard to coordinate students taking courses.
-New intake students find it hard to get directions to proposed classroom halls and other notable destinations on Nigerian Campuses.
+
 
 # Proposed Solution
 
@@ -21,7 +21,7 @@ A platform that connects student scholars, instructors/professionals,
 to students in Nigerian Universities that need help in specified courses that will ultimately take the tutorial form.
 Students access this platform through subscription on semester to semester basis. 
 Courses are taken via text means and video tutorial format.
-Create a map that directs students to classroom blocks, halls and notable places around Nigerian University campuses.
+.
 
 
 # Proposed Stack
