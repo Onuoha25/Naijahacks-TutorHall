@@ -5,8 +5,8 @@
 ### Team Members
 
 - Emmanuel Onuoha, emmanuelonuoha25@gmail.com
-- Aina Oluwatimilehin, 
-- Okemati Lanre
+- Aina Oluwatimilehin
+- Okemati Lanre, Lanrayokemati@yahoo.com
 - Olusegun Solomon
 
 # Problems
