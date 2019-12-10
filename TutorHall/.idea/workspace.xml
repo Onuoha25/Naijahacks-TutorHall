@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3469a88c-977b-4af6-bba0-a7bab7811085" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/google-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/nesa-by-makers-IgUR1iX0mqM-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/signup-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/login-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/login-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/signup-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/signup-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/login.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/signup.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/signup.ejs" afterDir="false" />
     </list>
@@ -67,7 +64,7 @@
       <updated>1575918709017</updated>
       <workItem from="1575918777954" duration="806000" />
       <workItem from="1575924355658" duration="1223000" />
-      <workItem from="1575968674025" duration="3895000" />
+      <workItem from="1575968674025" duration="4873000" />
     </task>
     <servers />
   </component>
