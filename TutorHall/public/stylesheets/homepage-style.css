@@ -1,0 +1,631 @@
+
+/* ========================
+    1. Global CSS
+======================== */
+/* -----------------------
+    1.1. General CSS
+----------------------- */
+body{
+    color: #666;
+}
+section{
+    padding: 90px 0px;
+}
+@media (max-width: 575.98px) {
+    section{
+        padding: 50px 0px;
+    }
+}
+button{
+    cursor: pointer;
+}
+
+
+/* -----------------------
+    1.2. Typography
+----------------------- */
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Roboto Slab', sans-serif;
+    color: #111;
+}
+h5{
+    font-size: 18px;
+}
+h1{
+    font-weight: 300;
+}
+h2{
+    font-size: 2.5rem;
+}
+.heading{
+    -webkit-background-clip: text;
+    /*-webkit-text-fill-color: transparent;*/
+    background-clip: inherit;
+    /*text-fill-color: transparent;*/
+    font-weight: 300;
+    font-size: 42px;
+    margin-top: -9px;
+}
+@media (max-width: 575.98px) {
+    .heading{
+        font-size: 36px;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+}
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white h6{
+    color: #fff;
+}
+
+
+/* ================================
+    2. Master Color Setting
+================================= */
+/*----------------------------------
+    2.1. Background Color Setting
+----------------------------------*/
+.button,
+.heading,
+.heading::after,
+.jumbotron::before,
+.sign_up_button,
+.play-button
+{
+    background-color: #770DDB;
+    background-image: linear-gradient(to top left, #C845AA, #770DDB);
+}
+
+/*----------------------------------
+    2.2 Text color Setting
+----------------------------------*/
+.icon,
+.icon-cirlce,
+.pricing_title,
+.icon-circle{
+    color: #770DDB;
+    background: linear-gradient(to bottom right, #C845AA, #770DDB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: inherit;
+    text-fill-color: transparent;
+}
+
+/* ==================================
+   3. Common CSS
+================================== */
+.btn{
+    font-size: 17px;
+    padding: 12px 30px;
+}
+.section_head{
+    margin-bottom: 30px;
+}
+.button{
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    float: left;
+}
+.background{
+    background-size: cover !important;
+}
+.parallax{
+    background-attachment: fixed !important;
+}
+.overlay{
+    position: relative;
+}
+.overlay::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #fff;
+    opacity: 0.9;
+}
+.mb-2r{
+    margin-bottom: 2rem;
+}
+@media (max-width: 575.98px) {
+    .xs-mb-1{margin-bottom: 0.25rem;}
+    .xs-mb-2{margin-bottom: 0.5rem;}
+    .xs-mb-3{margin-bottom: 1rem;}
+    .xs-mb-4{margin-bottom: 1.5rem;}
+    .xs-mb-5{margin-bottom: 3rem;}
+    .xs-mb-2r{margin-bottom: 2rem;}
+
+}
+@media (max-width: 767.98px) {
+    .sm-mb-1{margin-bottom: .25rem;}
+    .sm-mb-2{margin-bottom: 0.5rem;}
+    .sm-mb-3{margin-bottom: 1rem;}
+    .sm-mb-4{margin-bottom: 1.5rem;}
+    .sm-mb-5{margin-bottom: 3rem;}
+    .sm-mb-2r{margin-bottom: 2rem;}
+}
+@media (max-width: 991.98px) {
+    .md-mb-1{margin-bottom: .25rem;}
+    .md-mb-2{margin-bottom: 0.5rem;}
+    .md-mb-3{margin-bottom: 1rem;}
+    .md-mb-4{margin-bottom: 1.5rem;}
+    .md-mb-5{margin-bottom: 3rem;}
+    .md-mb-2r{margin-bottom: 2rem;}
+}
+
+
+/* =========================
+   4. Header
+========================= */
+/* -------------------------
+   4.1 Navbar
+------------------------- */
+.navbar{
+    background: none !important;
+    padding: 8px 15px;
+    margin-top: 10px;
+}
+.nav-link{
+    /*color: #fff !important;*/
+    padding: 0px 15px !important;
+    font-family: 'Roboto Slab';
+    font-size: 15px;
+}
+.nav-bg{
+    background: #fff !important;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin-top: 0;
+}
+.nav-bg a{
+    color: #111 !important;
+}
+.logo-color{
+    display: none;
+}
+.nav-bg .logo-color{
+    display: block;
+}
+.nav-bg .logo-white{
+    display: none;
+}
+@media (max-width: 400px) {
+    .navbar-brand img{
+        max-width: 200px;
+    }
+}
+@media (max-width: 991.98px) {
+    .navbar-expand-lg{
+        background: #fff !important;
+    }
+    .navbar{
+        margin-top: 0 !important;
+    }
+    .nav-link{
+        color: #666 !important;
+    }
+    .nav-item {
+        border-bottom: solid 1px #ccc;
+        padding: 10px 0;
+    }
+    .nav-item:last-child{
+        border-bottom: none;
+    }
+    .logo-color{
+        display: block;
+    }
+    .logo-white{
+        display: none;
+    }
+}
+
+
+/* -------------------------
+   4.2. jumbotron
+------------------------- */
+.jumbotron{
+    /*background: url(../images/nesa-by-makers-IgUR1iX0mqM-unsplash.jpg) center bottom;*/
+    background-size: cover;
+    position: relative;
+    padding: 120px 0px 150px;
+    color: #fff;
+}
+.jumbotron::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 5px solid white;
+    border-radius: 0px 0px 450px 0px;
+}
+canvas{
+    display:block;
+    vertical-align:bottom;
+}
+#particles-js{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.display-4{
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 100;
+    color: #fff;
+}
+@media (max-width: 420px) {
+    .display-4{
+        font-size: 3rem;
+    }
+}
+.display-4 span{
+    font-weight: 400;
+}
+.lead{
+    font-family: Roboto;
+}
+
+.jumbotron .btn{
+    font-size: 16px;
+    padding: 12px 35px;
+    line-height: 30px;
+    font-family: 'Roboto Slab', sans-serif;
+    text-transform: uppercase;
+}
+.btn .fa{
+    margin-right: 5px;
+}
+.btn-outline-light{
+    padding: 10px 35px;
+    border: solid 2px #fff;
+}
+@media (max-width: 575.98px) {
+    .jumbotron .btn{
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+    .btn-outline-light{
+        padding: 8px 35px;
+    }
+}
+
+
+/* =========================
+   5. About Section
+========================= */
+.about_features{
+    margin-top: -196px;
+    background: #fff;
+    position: relative;
+    padding: 3.5rem 2.5rem;
+}
+.about_features .mb-4{
+    /*    margin-bottom: 2rem !important;*/
+}
+.play-button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    padding-left: 35px;
+    font-size: 50px;
+    line-height: 100px;
+    transition: 0.5s;
+}
+.play-button:hover{
+    transform: scale(1.1);
+}
+.list-with-icon{
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.list-with-icon li{
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 2;
+}
+
+
+/* =========================
+   6. Feature Section
+========================= */
+.feature{
+    background: #eee;
+}
+.icon-circle{
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1.5px;
+}
+.icon-circle .icon{
+    font-size: 32px;
+    margin-top: 16px;
+}
+
+
+/* =========================
+   7. Screenshot Section
+========================= */
+
+
+
+/* =========================
+   8. Pricing Section
+========================= */
+.price_box{
+    transition: all linear 0.3s;
+}
+.price_box:hover{
+    margin-top: -10px;
+}
+.pricing_top{
+    background: #fff;
+    border-radius: 8px 8px 0 0;
+    padding: 30px 0 5px;
+}
+.price_box h5{
+    margin-bottom: 12px;
+    font-size: 1.4em;
+    letter-spacing: .01em;
+    font-weight: 400;
+}
+.price_box h2{
+    font-size: 3.6em;
+    line-height: 1.25;
+    font-weight: 300;
+}
+.pricing_bottom{
+    background: #fff;
+    border-radius: 0 0 8px 8px;
+    padding: 5px 30px 30px 30px;
+}
+.pricing_bottom ul{
+    list-style: none;
+}
+.pricing_bottom ul li{
+    font-weight: 400;
+    line-height: 2.5;
+    position: relative;
+    color: #666;
+}
+.sign_up_button{
+    color: #fff;
+    padding: 12px 0;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    float: none;
+    width: 100%;
+}
+
+
+/* =========================
+   9. Team Section
+========================= */
+.team{
+    background: #eee;
+}
+.team_expert{
+    position: relative;
+}
+.team_info{
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+    background: linear-gradient(to bottom right, #C845AA, #770DDB);
+    opacity: 0.8;
+    transition: all linear 0.3s;
+
+}
+.team_expert:hover .team_info{
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+}
+.team_info a{
+    color: #fff;
+    padding: 0 5px;
+    font-size: 18px;
+}
+.team_info h4{
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+.team_expert p{
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+
+/* =========================
+   10. Testimonial Section
+========================= */
+.owl-carousel .owl-item img{
+    width: auto;
+    display: inline;
+    margin-top: 0 !important;
+}
+.testimonial-item img{
+    margin-bottom: 15px;
+}
+.testimonial-item h5{
+    margin-bottom: 5px;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev{
+    font-size: 35px !important;
+    padding: 0 5px !important;
+    line-height: 1;
+    outline: none;
+    color: #bbb !important;
+}
+.testimonial .owl-dots{
+    display: none;
+}
+.testimonial blockquote{
+    font-size: 18px;
+}
+.blockquote-footer{
+    color: #5f6368;
+}
+
+/* =========================
+   11. Download Section
+========================= */
+@media (max-width:350px){
+    .download_icon{
+        width: 125px;
+    }
+}
+
+/* =========================
+   11. Contact Section
+========================= */
+.contact{
+    background: #eee;
+}
+.contact .form-field:nth-child(odd){
+    padding-right: 7px;
+}
+.contact .form-field:nth-child(even){
+    padding-left: 7px;
+}
+@media (max-width: 767.98px) {
+    .contact .form-field:nth-child(odd){
+        padding-right: 15px;
+    }
+    .contact .form-field:nth-child(even){
+        padding-left: 15px;
+    }
+}
+.form-field input{
+    padding: 11px 15px;
+    border-radius: 5px;
+}
+.location_map{
+    border-radius: 10px;
+    border: solid 2px #eaeaea;
+    box-shadow: 0 5px 20px #ddd;
+}
+
+
+/* =========================
+   12. Footer
+========================= */
+.footer{
+    background: #404040;
+    padding: 60px 0;
+}
+.footer p{
+    color: #979797;
+    font-size: 16px;
+    margin-top: 7px;
+    margin-bottom: 0;
+    letter-spacing: .01em;
+    font-weight: 300;
+}
+
+.footer_icon .fa{
+    padding: 0 8px;
+    font-size: 24px;
+    color: #979797;
+}
+.footer_icon .fa:hover{
+    color: #007bff;
+}
+
+/*.nav-tabs .nav-link.active {*/
+/*    font-weight:bold;*/
+/*    background-color: transparent;*/
+/*    border-bottom:3px solid #dd0000;*/
+/*    border-right: none;*/
+/*    border-left: none;*/
+/*    border-top: none;*/
+/*}*/
+
+.card-custom {
+    overflow: hidden;
+    min-height: 450px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.card-custom-img {
+    height: 200px;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-color: inherit;
+}
+
+/* First border-left-width setting is a fallback */
+.card-custom-img::after {
+    position: absolute;
+    content: '';
+    top: 161px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-top-width: 40px;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 545px;
+    border-left-width: calc(575px - 5vw);
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: inherit;
+}
+
+.card-custom-avatar img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+    position: absolute;
+    top: 100px;
+    left: 1.25rem;
+    width: 100px;
+    height: 100px;
+}
