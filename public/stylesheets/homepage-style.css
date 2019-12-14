@@ -178,9 +178,11 @@ h2{
    4.1 Navbar
 ------------------------- */
 .navbar{
-    background: none !important;
-    padding: 8px 15px;
-    margin-top: 10px;
+    /*background: none !important;*/
+    /*padding: 8px 15px;*/
+    /*margin-top: 10px;*/
+    background-color: #770DDB;
+    background-image: linear-gradient(to top left, #C845AA, #770DDB);
 }
 .nav-link{
     /*color: #fff !important;*/
@@ -243,7 +245,7 @@ h2{
     /*background: url(../images/nesa-by-makers-IgUR1iX0mqM-unsplash.jpg) center bottom;*/
     background-size: cover;
     position: relative;
-    padding: 120px 0px 150px;
+    padding: 150px 0px 150px;
     color: #fff;
 }
 .jumbotron::before{
@@ -628,4 +630,83 @@ canvas{
     left: 1.25rem;
     width: 100px;
     height: 100px;
+}
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f19d";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+/* COurses tab style*/
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #495057;
+    background-color: #fff;
+    border-bottom: 4px solid blue;
+    border-right: #dee2ef;
+    border-top-color: rgb(222, 226, 230);
+    border-right-color: rgb(222, 226, 230);
+    /* border-bottom-color: rgb(255, 255, 255); */
+    border-left-color: rgb(222, 226, 230);
+}
+
+/* Navbrand design */
+.navbar-light .navbar-brand {
+    color: #f8f9fa;
+    font-weight: bolder;
+    border: 0.5px solid;
+    padding: 5px;
+}
+
+
+
+.nav-list .active > .text-light {
+    border-left: 2px solid ;
+    border-bottom: 2px solid;
+    padding-left: 8px;
+
 }

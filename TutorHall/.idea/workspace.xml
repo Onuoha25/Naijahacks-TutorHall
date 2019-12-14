@@ -4,77 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3469a88c-977b-4af6-bba0-a7bab7811085" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1a3e525e1d39c5b344f1e16fd2c5a35044dc2147" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/29bdf601842fe545afe841c913986499d6397633" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/3305b94c535d7992beed0f2170d3c9c38aaea7be" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/3605f8ecd2106e23dc0cb17015560b6696568cb6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a1c93bf1c0cd33f7ff7e6acfcf3aab596a11723" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3f748e7b3e38d474ff6964f6a6d3381932b1eac9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42f5bdb9a7873684a34dbf55435cc2ceb8b86ac7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/496c03b4d5f1774ceafd2fb8b05f3c5113512c61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c733dd41423add0237c6c3bd109f82430c0b7ad" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55cece326899320b152c60d1ef22acc32db04554" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5ca6804620ea253474e772e450736956d7409fb2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/7490c5c8734673e29334a120e7be6544c7eca08e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/84b1ebeff74d6c7ca22835660a0723df6128a9cd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b519cc164b066c5a471aeacda604e9c9f0c310f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8cee1b82a3d9934eeb2e107193f15c445d1cbf2c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/9718f7734dc22328d46e0b688b2e69062b904fe5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a014f883446bbf82f4dcc6b61bea87b3fc2a1858" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a9d2a12eabc11b25b1b51eab87cecf0e9fdad7fa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1661f3bfa43260a5ba2a47058640b1f663fb1ce" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed7c01bc8427f7427b7ecadaa06efae2f3051b4d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbc9cc99a27e840a54a071b85665c235786d8f70" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff4fa75ed5ebae1dfebbfd8bbe4307e07522e092" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/templateLanguages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap-dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/javascripts/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/javascripts/homepage-script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/javascripts/jquery-counterup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/javascripts/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/javascripts/lity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/javascripts/owl-carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/javascripts/particles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/javascripts/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/javascripts/waypoints.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/homepage-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/lity.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/owl-carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/owl-default-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/pe-icon7-helper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/pe-icon7-stroke.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/temp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TutorHall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TutorHall.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
-    </list>
+    <list default="true" id="3469a88c-977b-4af6-bba0-a7bab7811085" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -142,7 +72,7 @@
       <workItem from="1576168634762" duration="4206000" />
       <workItem from="1576187330038" duration="2776000" />
       <workItem from="1576197351365" duration="4746000" />
-      <workItem from="1576207462768" duration="8144000" />
+      <workItem from="1576207462768" duration="8945000" />
     </task>
     <servers />
   </component>

@@ -4,7 +4,7 @@
     font-family: Montserrat;
 }
 .login-form-1{
-    padding: 5%;
+    /*padding: 5%;*/
     /*box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);*/
 }
 
@@ -87,14 +87,11 @@
 }
 
 .signupGoogle {
-    margin-left: 20%;
-    width: 337px;
-    height: 48px;
-    left: 119px;
-    /*top: 132px;*/
-
-    /* Button */
-
+    /* margin-top: 10%; */
+    width: 100%;
+    height: 50px;
+    /* left: 119px; */
+    /* top: 132px; */
     border: 1px solid #55D6BE;
     box-sizing: border-box;
     border-radius: 5px;
@@ -103,25 +100,21 @@
 }
 
 .signup-desc {
-    margin-left: 13%;
-    width: 431px;
-    height: 27px;
-    left: 72px;
-    /*top: 156px;*/
-
-
+    /* margin: 5%; */
+    width: 100%;
+    /* height: 27px; */
+    /* left: 72px; */
+    /* top: 156px; */
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 152.4%;
-    /* or 27px */
-
     color: rgba(0, 0, 0, 0.5);
 }
 
 .input-field {
-    width: 337px;
+    width: 100%;
     height: 48px;
     left: 696px;
     top: 339px;
@@ -129,4 +122,10 @@
     border: 1px solid #E0E0E0;
     box-sizing: border-box;
     border-radius: 5px;
+}
+
+@media (max-width: 320px) {
+    .col-md-6, .login-form-2 {
+        display: none;
+    }
 }
